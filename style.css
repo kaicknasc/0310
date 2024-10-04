@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --white: #fff;
+    --grayw: #F2F2F2;
+    --gray: #3b3b3b;
+    --bluey: #027fe9;
+    --blue: #13678A;
+    --blueb: #012030;
+    --bluea: #319190;
+    --bluewater: #45C4B0;
+    --greenwater: #9AEBA3;
+    --greenw: #DAFDBA;
+    --orange: #fc6e3d;
+    --orangey: #ff9f15;
+    --orangered: #ea2a15; 
+    --pinkred: #e7204e;
+    --pink: #ef3353;
+    --pinkw: #f70a71;
+    --pinkww: #ff426a;
+    --red: #b11623;
+    --yellow: #ffc803;
+    --purple: #551bb3;
+    --purples: #5015bd;
+    --purpleb: #770493;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+/* HMTL CONFIG START */
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100px;
+}
+
+/* HTML CONFIG ENDING */
+
+/* PAGE STARTING... */
+
+/* HEADER START */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--grayw);
+
+    top: 0;
+    position: sticky;
+
+    padding: 0.75em;
+
+    box-shadow: 0 0 15px #0000002a;
+}
+
+header i {
+    font-size: 2.8em;
+    color: var(--orangey);
+}
+
+.image {
+    margin-left: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1.15rem;
+    transition: 00.30s ease;
+}
+
+.nav a:hover {
+    text-decoration: underline var(--orange) 2px;
+}
+
+/* HEADER ENDING */
+
+
+/* MAIN START */
+
+.whatsapp {
+    position: relative;
+}
+
+.whatsapp img {
+    position: fixed;
+    
+    right: 20px;
+    bottom: 20px;
+
+    width: 4rem;
+    height: auto;
+}
+
+/* SECTIONS START */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link {
+    position: relative;
+    
+    background-color: var(--orangey);
+}
+
+.link a {  
+}
