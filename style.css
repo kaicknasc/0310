@@ -181,8 +181,14 @@ hr {
     right: 20px;
     bottom: 20px;
 
-    width: 4rem;
+    width: 5rem;
     height: auto;
+
+    transition: 00.60s ease;
+}
+
+.whatsapp img:hover {
+    transform: scale(1.1);
 }
 
 /* SECTIONS START */
@@ -352,3 +358,52 @@ span {
 }
 
 /* SECTION-S2 ENDING */
+
+/* SECTION-S3 STARTING */
+
+.section03 {
+    display: flex;
+    flex-direction: column;
+
+    padding: 8rem;
+    gap: 9em;
+
+    background-color: var(--grayw);
+}
+
+.box-s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 1em;
+
+    width: 300px;
+    height: auto;
+
+    background-color: var(--white);
+}
+
+.text-s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-s3 i {
+    color: var(--bluepp);
+    font-size: 5em;
+    text-align: center;
+
+    background-color: var(--white);
+}
+
+.text-s3 p {
+
+}
+
+
+
+/* SECTION-S3 ENDING */
