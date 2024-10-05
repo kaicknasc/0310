@@ -24,6 +24,9 @@
     --purple: #551bb3;
     --purples: #5015bd;
     --purpleb: #770493;
+    --bluebb: #1c31a5;
+    --bluep: #212ac5;
+    --bluepp: #2c38d8;
 }
 
 * {
@@ -224,7 +227,12 @@ hr {
 /* TEXT-S1 STARTING */
 
 .box-texts {
-    width: 400px;
+    background-color: #0189ff73;
+    padding: min(15vh, 0.2em);
+
+    backdrop-filter: blur(1px);
+
+    width: 450px;
     height: auto;
     
     color: var(--white);
@@ -304,3 +312,43 @@ span {
 
 /* FORM ENDING */
 
+/* SECTION-S2 STARTING */
+
+.section02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: var(--grayw);
+
+    padding: 5em;
+    gap: 3em;
+}
+
+.flexbox-s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.8em;
+}
+
+.box-s2 img {
+    width: 35em;
+}
+
+#titule {
+    font-size: 1.6em;
+    color: var(--bluebb);
+}
+
+#line-s2 {
+    border: none;
+    background-color: var(--bluepp);
+
+    width: 9em;
+    height: 0.4em;
+}
+
+/* SECTION-S2 ENDING */
