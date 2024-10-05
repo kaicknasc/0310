@@ -228,8 +228,19 @@ hr {
     height: auto;
     
     color: var(--white);
-    font-size: 3.5em;
-    font-weight: 500;
+}
+
+.texts-s1 p {
+    font-weight: 200;
+    text-align: left;
+}
+
+.texts-g p {
+    font-size: 3.8em;
+}
+
+span {
+    font-weight: 300;
 }
 
 
