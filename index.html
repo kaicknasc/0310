@@ -1,45 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Design de interiores</title>
-        <link rel="stylesheet" href="style.css">
-        <!-- FONTES -->
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-        <header>
-            <div class="image">
-                <img src="images/Logo-ESPC.png" alt="Icone logo">
-            </div>
 
-            <div class="nav">
-                <a href="#">Entrar ou registrar-se</a>
-                <i class="fa-solid fa-user"></i>
-            </div>
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design de interiores</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 
-        <div class="whatsapp">
-            <a href="#" target="_blank">
-                <img src="images/whatsapp.png" alt="Ícone do whatsapp">
+<body>
+    <header>
+        <div class="text">
+            <a href="#">
+                <h2>
+                    Itaquera
+                </h2>
+            </a>
+
+            <hr>
+
+            <div class="text-2">
+                <h3>
+                    Art Premium Itaquera
+                </h3>
+
+                <p>
+                    Rua Balmain Mendonça, 389 - São Paulo
+                </p>
+            </div>
+        </div>
+
+        <div class="nav">
+            <a href="">
+                Ambientes
+            </a>
+            <a href="">
+                Showroom 360
+            </a>
+            <a href="">
+                Promoções
+            </a>
+            <a href="">
+                Blog
+            </a>
+            <a href="">
+                Quem somos
             </a>
         </div>
 
-        <main>
-            <section class="section section01">
-                <div class="link">
-                    <a href="#">Saiba Mais</a>
-                    <a href="#">Sobre nós</a>
-                    <a href="#">Contato</a>
+        <div class="buttons-h">
+            <a href="#">
+                <button id="contact">
+                    <i class="fa-solid fa-comments"></i>
+                    Fale Conosco
+                </button>
+            </a>
+            <a href="#">
+                <button>
+                    Seu pedido
+                </button>
+            </a>
+        </div>
+    </header>
 
-                    
+    <div class="whatsapp">
+        <a href="#" target="_blank">
+            <img src="images/whatsapp.png" alt="Ícone do whatsapp">
+        </a>
+    </div>
+
+    <main>
+        <section class="section section01">
+            <div class="flexbox">
+
+                <div class="box-texts">
+                    <div class="texts-s1">
+                        <p>
+                            ITAQUERA MÓVEIS PLANEJADOS
+                        </p>
+
+                        <div class="texts-g">
+                            <p>
+                                <span>
+                                    Realize seus sonhos na
+                                    <strong>
+                                        Art Premium Itaquera
+                                    </strong>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
 
-    </body>
+                <div class="box-form">
+                    <div class="form-s1">
+                        <h2>
+                            Faça seu projeto!
+                        </h2>
+
+                        <p>
+                            Solicite um orçamento abaixo:
+                        </p>
+
+                        <div class="inputs-s1">
+
+                            <input type="text" placeholder="Nome">
+
+                            <div class="ambient">
+                                <label for="text">Ambientes do seu interesse:</label>
+                                <input type="text">
+                            </div>
+
+                            <input type="number" placeholder="Telefone/WhatsApp">
+
+                            <input type="email" placeholder="E-mail">
+
+                            <textarea name="message" id="message" cols="30" rows="8"
+                                placeholder="Deixe uma mensagem"></textarea>
+                        </div>
+
+                        <div class="button-s1">
+                            <button>
+                                Enviar interesse
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
 </html>
