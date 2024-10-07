@@ -371,6 +371,14 @@ span {
     background-color: var(--grayw);
 }
 
+.flexbox-s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2em;
+}
+
 .box-s3 {
     display: flex;
     justify-content: center;
@@ -380,7 +388,7 @@ span {
     padding: 1em;
 
     width: 300px;
-    height: auto;
+    height: 350px;
 
     background-color: var(--white);
 }
@@ -393,15 +401,17 @@ span {
 }
 
 .text-s3 i {
-    color: var(--bluepp);
+    color: var(--bluey);
     font-size: 5em;
     text-align: center;
 
     background-color: var(--white);
+    
+    margin: 1rem;
 }
 
-.text-s3 p {
-
+#titule-s3 {
+    color: var(--bluey);
 }
 
 
