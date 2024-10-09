@@ -236,7 +236,7 @@ hr {
     background-color: #0189ff73;
     padding: min(15vh, 0.2em);
 
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(1.50px);
 
     width: 450px;
     height: auto;
@@ -365,7 +365,7 @@ span {
     display: flex;
     flex-direction: column;
 
-    padding: 8rem;
+    padding: 5\rem;
     gap: 9em;
 
     background-color: var(--grayw);
@@ -396,8 +396,16 @@ span {
 .text-s3 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
+}
+
+#text-s3  {
+    color: var(--black);
+    font-size: 3.2em;
+    font-weight: 700;
+
+    width: 500px;
 }
 
 .text-s3 i {
@@ -417,3 +425,108 @@ span {
 
 
 /* SECTION-S3 ENDING */
+
+/* SECTION-S4 STARTING */
+
+.section04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 2.8em;
+    padding: 4em;
+
+  background: linear-gradient(-180deg, var(--bluey) 10%, var(--white) 90%);
+}
+
+#titule-s4 {
+    font-size: 1.6em;
+    color: var(--white);
+}
+
+.flexbox-s4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 5em;
+}
+
+.box-images img {
+    width: 350px;
+    height: 250px;
+
+    border: 2px solid #ffffff40;
+    border-radius: 1em;
+
+    box-shadow: 1px 15px 15px rgba(0, 128, 255, 0.472);
+    
+    transition: 00.80s ease;
+}
+
+.box-images img:hover {
+    transform: scale(1.1);
+}
+/* SECTION-S4 ENDING */
+
+/* FOOTER STARTING */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 2.5em;
+    gap: 2.5em;
+
+    background-color: var(--bluey);
+}
+
+footer h2 {
+    font-size: 2.2em;
+
+    color: var(--white);
+}
+
+.flexbox-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+
+    gap: 0.15em;
+    padding: 1em;
+
+    font-size: 1.1em;
+    font-weight: 400;
+
+    width: 320px;
+    height: auto;
+
+    background-color: #0068c3;
+    color: var(--white);
+}
+
+.box-footer i {
+    font-size: 1.2em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.25em;
+}
+
