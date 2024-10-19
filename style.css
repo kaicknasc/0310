@@ -530,3 +530,19 @@ footer h2 {
     gap: 0.25em;
 }
 
+@media (max-width: 486px) {
+    header {
+        width: 100%;
+    }
+
+    .flexbox-s2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        width: 100%;
+        padding: 1em;
+    }
+}
+
